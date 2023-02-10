@@ -12,7 +12,7 @@ img {
 
 */
 
-/* ------------------------ CLASS SELECTORS ---------------- */
+/* ---------------------- CLASS SELECTORS ---------------- */
 
 .bacon {
   background-color: red;
@@ -21,3 +21,22 @@ img {
 .egg {
   background-color: yellow;
 }
+
+/* ----------------------- ID SELECTORS ------------------- */
+
+#heading {
+  color: blue;
+}
+
+/* What is the biggest difference between Classes and ID's?
+
+You can only have one ID name in a single page
+  - the ID can only be used in one place
+
+Classess can be used multiple times in a page 
+
+Important to understand that CLASSESS & ID'S are more specific than tags like "h1" and will overwrite the tags
+
+pseudo classess - have a ":" in front of it ex. a:hover
+
+*/
